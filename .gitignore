@@ -1,0 +1,69 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+.vite/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Database files (SQLite)
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local inverter configuration
+config.local.json
+inverter.local.json
+serial.local.json
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.bak
+
+# Operating system
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+
+# Testing
+.nyc_output/
+playwright-report/
+test-results/
+
+# Package manager
+.pnpm-store/
+
+# Python (if used for auxiliary scripts)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local hardware / serial debugging
+serial-debug.log
+*.capture
+*.dump
